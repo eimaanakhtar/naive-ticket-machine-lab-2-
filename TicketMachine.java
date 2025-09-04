@@ -17,6 +17,7 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    private int score; // starts at 0 by default
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -35,16 +36,19 @@ public class TicketMachine
      */
     public int getPrice()
     {
-        return price;
+         return price;
     }
 
     /**
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getAmount()
+    public int getBalance()
     {
         return balance;
+    }
+    public int getTotal() {
+        return total;
     }
 
     /**
@@ -56,11 +60,18 @@ public class TicketMachine
     }
 
     /**
+     * Increase score by the given number of points.
+     */
+    public void increaseScore(int points) {
+        score += points; // adds points to score field
+    }
+    /**
      * Print a ticket.
      * Update the total collected and
      * reduce the balance to zero.
      */
     public void printTicket()
+
     {
         // Simulate the printing of a ticket.
         System.out.println("##################");
@@ -75,4 +86,5 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
 }
