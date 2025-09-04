@@ -15,3 +15,4 @@ How to start this project: Create one or more TicketMachine objects.
 
 Q25: Renaming getBalance to getAmount, the return statement does not change.
 Q26: added getTotal() method to return total. Tested by inserting moeny and printing.
+Q27: Removing the return statement fro getPrice() causes an error, showing that the accessor methods must return a value.
