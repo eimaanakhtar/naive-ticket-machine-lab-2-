@@ -17,3 +17,4 @@ Q25: Renaming getBalance to getAmount, the return statement does not change.
 Q26: added getTotal() method to return total. Tested by inserting moeny and printing.
 Q27: Removing the return statement fro getPrice() causes an error, showing that the accessor methods must return a value.
 Q28: getPrice() is an accessor method that returns a value and printTicket() changes the object's state and doesnt return a value.
+Q29: insertMoney() and printTicket() do not have any return statements. They only modify the object's statement.
