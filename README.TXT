@@ -14,3 +14,4 @@ Purpose of project: To illustrate the basics of fields, constructors, and method
 How to start this project: Create one or more TicketMachine objects.
 
 Q25: Renaming getBalance to getAmount, the return statement does not change.
+Q26: added getTotal() method to return total. Tested by inserting moeny and printing.
