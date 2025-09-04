@@ -18,15 +18,18 @@ public class TicketMachine
     // The total amount of money collected by this machine.
     private int total;
     private int score; // starts at 0 by default
+    private int age;
+    private boolean alive;
+    
 
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine(int price)
     {
-        price = cost;
+        price = price; // use this.price
         balance = 0;
         total = 0;
     }
@@ -47,10 +50,15 @@ public class TicketMachine
     {
         return balance;
     }
+    
     public int getTotal() {
         return total;
     }
 
+    public int getScore() {
+        return score;
+    }
+    
     /**
      * Receive an amount of money from a customer.
      */
@@ -65,6 +73,19 @@ public class TicketMachine
     public void increaseScore(int points) {
         score += points; // adds points to score field
     }
+    
+    public void discount (int amount) {
+        price -= amount; // substract amount from ticket price
+    }
+    
+    public void setAge (int currentAge) {
+        age = currentAge;
+    }
+    
+    public void setAlive (boolean alive) {
+        
+    }
+
     /**
      * Print a ticket.
      * Update the total collected and
