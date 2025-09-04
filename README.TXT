@@ -19,4 +19,6 @@ Q27: Removing the return statement fro getPrice() causes an error, showing that 
 Q28: getPrice() is an accessor method that returns a value and printTicket() changes the object's state and doesnt return a value.
 Q29: insertMoney() and printTicket() do not have any return statements. They only modify the object's statement.
 Q30: Calling insterMoney() changes the balance field, so the output of getBalance() is updated.
-Q31:  
+
+Q31: increaseScore adds point to the score field
+Q32:
