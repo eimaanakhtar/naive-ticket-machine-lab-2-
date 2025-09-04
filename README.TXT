@@ -20,5 +20,9 @@ Q28: getPrice() is an accessor method that returns a value and printTicket() cha
 Q29: insertMoney() and printTicket() do not have any return statements. They only modify the object's statement.
 Q30: Calling insterMoney() changes the balance field, so the output of getBalance() is updated.
 
-Q31: increaseScore adds point to the score field
-Q32:
+Q31: increaseScore adds point to the score field.
+Q32: Yes, addCredits is a mutator because it changes the credits field.
+Q33: discount reduces the price by the given amount since its the mutator.
+Q34: setter method for age has been added.
+Q35: setter method for alive added.
+Q36: Using this.price assigns the constructer parameter to field.
