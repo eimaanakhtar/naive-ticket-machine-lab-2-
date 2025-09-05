@@ -26,3 +26,11 @@ Q33: discount reduces the price by the given amount since its the mutator.
 Q34: setter method for age has been added.
 Q35: setter method for alive added.
 Q36: Using this.price assigns the constructer parameter to field.
+Q37: Prints "My cat has green eyes."
+Q38: Added prompt method to print instructions.
+Q39: It prints the price of a ticket. Example: "The price of a ticket is 500 cents."
+Q40: No it just prints the price.
+Q41: The puporse of showPrice() is to display information to the user and it doesnt not modify anything.
+Q42: Two machines with different ticket prices display different outputs.
+Q44-45: Added two constructprs to TicketMachine. Texted both construction by creating machines and checking that the price field is set correctly.
+Q46: empty method resets tpta; to 0; its a mutator.
